@@ -10,6 +10,6 @@ locals {
 }
 
 resource "azurerm_resource_group" "main" {
-  name     = "rg-vpn-${local.suffix}"
+  name     = "rg-apim-${local.suffix}"
   location = var.location
 }
